@@ -23,13 +23,13 @@
         <div class="container-xxl d-flex align-items-center justify-content-between py-2">
 
             <!-- Logo -->
-            <div class="d-flex align-items-center gap-2">
+            <a href="index.html" class="d-flex align-items-center gap-2 logo-brand">
                 <div class="d-grid place-items-center bg-brand text-white fw-black rounded-4"
                     style="width:36px;height:36px;background:var(--brand);padding: 0.5em;">
                     <img src="img/logo.png" alt="">
                 </div>
                 <span class="fw-bold-900 fs-5">Checify</span>
-            </div>
+            </a>
 
             <!-- Navigation -->
             <nav class="d-none d-md-flex align-items-center gap-4 text-dark">
@@ -42,10 +42,12 @@
 
             <!-- Buttons -->
             <div class="d-flex align-items-center gap-2">
-                <button class="btn btn-light py-3 px-5 bg-white border rounded-2xl fw-semibold d-flex align-items-center gap-2">
+                <button
+                    class="btn btn-light py-3 px-5 bg-white border rounded-2xl fw-semibold d-flex align-items-center gap-2">
                     <i class="bi bi-envelope"></i> Join as diner
                 </button>
-                <button class="btn text-white  py-3 px-5 rounded-2xl fw-semibold d-flex align-items-center gap-2 shadow-brand"
+                <button
+                    class="btn text-white  py-3 px-5 rounded-2xl fw-semibold d-flex align-items-center gap-2 shadow-brand"
                     style="background: var(--brand, #007bff)">
                     <i class="bi bi-egg-fried"></i> Become a curator
                 </button>
@@ -67,9 +69,11 @@
                         best. We pair compatible singles at shared tables—no swiping, just great food and better
                         conversation.</p>
                     <div class="d-flex flex-wrap gap-2 mt-3">
-                        <a href="#menus" class="btn btn-brand fw-semibold  py-3 px-5 rounded-2xl  d-flex align-items-center gap-2">Explore
+                        <a href="#menus"
+                            class="btn btn-brand fw-semibold  py-3 px-5 rounded-2xl  d-flex align-items-center gap-2">Explore
                             menus <i class="bi bi-arrow-right"></i></a>
-                        <button class="btn btn-soft  py-3 px-5  fw-semibold rounded-2xl " id="btnEarn">Earn as waitstaff</button>
+                        <button class="btn btn-soft  py-3 px-5  fw-semibold rounded-2xl " id="btnEarn">Earn as
+                            waitstaff</button>
                     </div>
                     <div class="d-flex flex-wrap gap-4 mt-4 small text-charcoal">
                         <div class="d-flex align-items-center gap-2"><i class="bi bi-shield-check"></i> Verified
@@ -191,7 +195,8 @@
             </div>
             <div class="row g-3 g-lg-4 mt-1" id="menuGrid"></div>
             <div class="text-center mt-4">
-                <a href="#signup" class="btn btn-brand  fw-semibold  py-3 px-5 rounded-2xl  d-inline-flex align-items-center gap-2">See
+                <a href="#signup"
+                    class="btn btn-brand  fw-semibold  py-3 px-5 rounded-2xl  d-inline-flex align-items-center gap-2">See
                     availability <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
@@ -305,7 +310,9 @@
                             </div>
                         </div>
                         <div class="mt-3">
-                            <button class="btn btn-brand fw-semibold  py-3 px-5 rounded-2xl d-inline-flex align-items-center gap-2">Apply to
+                            <button
+                                class="btn btn-brand fw-semibold  py-3 px-5 rounded-2xl d-inline-flex align-items-center gap-2">Apply
+                                to
                                 curate <i class="bi bi-arrow-right"></i></button>
                         </div>
                     </div>
@@ -378,7 +385,8 @@
                             </div>
                         </div>
                         <div class="mt-3">
-                            <button class="btn btn-brand fw-semibold  py-3 px-5 rounded-2xl  d-inline-flex align-items-center gap-2">Get
+                            <button
+                                class="btn btn-brand fw-semibold  py-3 px-5 rounded-2xl  d-inline-flex align-items-center gap-2">Get
                                 matched <i class="bi bi-arrow-right"></i></button>
                         </div>
                     </form>
@@ -401,7 +409,198 @@
             </div>
         </div>
     </section>
+    <!-- faq -->
+    <section id="faq" class="py-5">
+        <div class="container-xxl">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="card faq-card p-4 rounded-2xl">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="me-3"><span class="badge btn-brand rounded-pill px-3 py-2">FAQ</span></div>
+                            <div>
+                                <h3 class="h1 mb-1 fw-extrabold">Frequently Asked Questions</h3>
+                                <p class="text-muted mb-0">Below are answers to the most common questions about Checify.</p>
+                            </div>
+                        </div>
 
+                        <div class="accordion" id="checifyAccordion">
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        1. What is checify?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#checifyAccordion">
+                                    <div class="accordion-body">
+                                        <strong>checify</strong> is a sharing-economy platform that matches singles at
+                                        restaurants through menus curated by waitstaff. Instead of endless swiping, we
+                                        focus on real connections over carefully crafted meals.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        2. How does the matching process work?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#checifyAccordion">
+                                    <div class="accordion-body">
+                                        You select a themed menu and share your preferences (dietary choices, vibe,
+                                        interests). Our system pairs you with compatible diners and confirms the
+                                        reservation.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        3. Who creates the menus?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#checifyAccordion">
+                                    <div class="accordion-body">
+                                        Local waitstaff act as curators—they design themed menus based on the chef’s
+                                        specialties, seasonal ingredients, and dining flow.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        4. Where do the events take place?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#checifyAccordion">
+                                    <div class="accordion-body">
+                                        All meetups happen in partner restaurants, hosted by waitstaff curators. This
+                                        ensures a safe, relaxed, and well-organized dining experience.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        5. Is it safe?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#checifyAccordion">
+                                    <div class="accordion-body">
+                                        Yes. We verify all profiles and only host dinners in vetted restaurants. Each
+                                        event is facilitated by staff, not strangers.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        6. Do I need to pay in advance?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#checifyAccordion">
+                                    <div class="accordion-body">
+                                        Yes, a per-person fee is paid when reserving your seat. This secures your spot
+                                        and covers the curated dining experience.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        7. Can I bring a friend?
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven" data-bs-parent="#checifyAccordion">
+                                    <div class="accordion-body">
+                                        Of course! You can join solo or with a friend. Matching ensures you’re seated
+                                        with compatible diners.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseEight" aria-expanded="false"
+                                        aria-controls="collapseEight">
+                                        8. What if I have dietary restrictions?
+                                    </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-collapse collapse"
+                                    aria-labelledby="headingEight" data-bs-parent="#checifyAccordion">
+                                    <div class="accordion-body">
+                                        Every menu lists options, and curators consider restrictions seriously. You can
+                                        note allergies or preferences during sign-up.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingNine">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseNine" aria-expanded="false"
+                                        aria-controls="collapseNine">
+                                        9. How do I become a curator as waitstaff?
+                                    </button>
+                                </h2>
+                                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                                    data-bs-parent="#checifyAccordion">
+                                    <div class="accordion-body">
+                                        If you’re waitstaff at a restaurant, apply through the “Become a Curator”
+                                        section. You’ll propose a menu and availability, and we’ll guide you through the
+                                        next steps.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTen">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                        10. What benefits do restaurants get?
+                                    </button>
+                                </h2>
+                                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                                    data-bs-parent="#checifyAccordion">
+                                    <div class="accordion-body">
+                                        Restaurants fill tables during off-peak hours, showcase their cuisine in new
+                                        ways, and reward their staff with extra income opportunities.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
     <footer class="py-4 bg-white border-top">
         <div class="container-xxl d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3">
